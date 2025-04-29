@@ -1,0 +1,15 @@
+<!--Cabeçalho-->
+<app-header></app-header>
+
+<!--Vinis Card-->
+
+<div class="vinly_card_group">
+    @for (vinly of vinlys; track vinly.title) {
+        <app-vinlycard
+          [imageUrl]="vinly.imageUrl"
+          [title]="vinly.title"
+          [artist]="vinly.artist"
+          [price]="vinly.price"
+        />
+        }
+</div>
