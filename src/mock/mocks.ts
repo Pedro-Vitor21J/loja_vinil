@@ -107,9 +107,9 @@ export const vinly_mock: vinly[] = [
     },
 
     {
-        imageUrl: 'https://i.discogs.com/ZoHv-WHC_RU0WBvrswyPo6_OefEs6Agk7HWjobNlUds/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwNDMx/MC0xMTcxMTAzMjcy/LmpwZWc.jpeg',
-        title: 'Selected Ambient Works Volume II',
-        artist: 'Aphex Twin',
-        price: 'R$ 995,75',
+        imageUrl: 'https://i.discogs.com/ePDqkxfJalPZKdastMCIRKWBptdpyGVxJUTBbABbuts/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMDg3/NS0xMjQ1MzUxOTAx/LmpwZWc.jpeg',
+        title: 'Black Vase',
+        artist: 'Prurient',
+        price: 'R$ 41,88',
     },
 ]

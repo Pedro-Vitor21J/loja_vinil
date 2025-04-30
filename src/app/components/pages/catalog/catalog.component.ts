@@ -4,12 +4,13 @@ import { VinlycardComponent } from "../../template/vinlycard/vinlycard.component
 import { vinly } from '../../model/vinly';
 import { vinly_mock } from '../../../../mock/mocks';
 import { FooterComponent } from "../../template/footer/footer.component";
+import { FiltersComponent } from "../../template/filters/filters.component";
 
 
 
 @Component({
   selector: 'app-catalog',
-  imports: [HeaderComponent, VinlycardComponent, FooterComponent],
+  imports: [HeaderComponent, VinlycardComponent, FooterComponent, FiltersComponent],
   templateUrl: './catalog.component.html',
   styleUrl: './catalog.component.css'
 })

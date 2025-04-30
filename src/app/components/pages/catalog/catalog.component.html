@@ -1,8 +1,11 @@
 <!--Cabeçalho-->
 <app-header></app-header>
 
+<main>
+  <!--Filtros-->
+<app-filters></app-filters>
 <!--Vinis Card-->
-<div class="vinly_card_group">
+  <div class="vinly_card_group">
     @for (vinly of vinlys; track vinly.title) {
         <app-vinlycard
           [imageUrl]="vinly.imageUrl"
@@ -11,6 +14,8 @@
           [price]="vinly.price"
         />
         }
-</div>
+  </div>
+</main>
+
 <!--Rodapé-->
 <app-footer></app-footer>
