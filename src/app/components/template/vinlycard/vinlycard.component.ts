@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './vinlycard.component.css'
 })
 export class VinlycardComponent {
+  @Input() id!: number;
   @Input() imageUrl!: string;
   @Input() title!: string;
   @Input() artist!: string;
