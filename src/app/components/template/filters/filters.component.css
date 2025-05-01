@@ -2,15 +2,13 @@
     display: flex;
     font-family: var(--fontDefault);
     color: var(--lightBlack);
-    margin-left: 10rem;
-    margin-top: 3rem;
+    margin: 3rem 0 0 10rem;
 }
 
 .filters_category{
     display: flex;
     gap: 3.8rem;
-    margin-left: 3.8rem;
-    margin-top: 2.8rem;
+    margin: 2.5rem 0 0 3.8rem;
 }
 
 .filters_vinly{
@@ -45,5 +43,4 @@
     width: 124rem;
     margin-left: 10rem;
     background-color: var(--pureBlack);
-
 }
