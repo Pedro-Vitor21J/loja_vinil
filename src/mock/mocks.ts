@@ -6,39 +6,39 @@ export const vinly_mock: vinly[] = [
         imageUrl: 'https://i.discogs.com/ATLGAosI0De2OkAodnJYs4D9kGRkLgcCXBtMwcOWQ4E/rs:fit/g:sm/q:90/h:573/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNTM4/MDUzLTE1MzczMTA5/MTEtODA2Ni5qcGVn.jpeg',
         title: 'Year of the Snitch',
         artist: 'Death Grips',
-        price: 'R$ 265,00',
+        price: 'R$ 126,57',
     },
 
     {
         id: 2,
         imageUrl: 'https://i.discogs.com/86Et-mMsyv4fQFEU7PydJE3G3s2gXOga4YIqkGRky6s/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjAw/MjM4LTE2MDUyNjk3/MDMtMjg5NS5qcGVn.jpeg',
         title: 'Amplifier Worship',
-        artist: 'boris',
-        price: 'R$ 145,45',
+        artist: 'Boris',
+        price: 'R$ 130,54',
     },
 
     {
         id: 3,
-        imageUrl: 'https://i.discogs.com/vjWJKCtNiW326UjLeErotQ5H8LndHOKMN1UhMA2Bmz0/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDA0/NDUzLTE1NDM3MjIx/NjUtODgzOC5qcGVn.jpeg',
+        imageUrl: 'https://i.discogs.com/ytQGzdHvEGjnWr3PEX36iaDeBpwRg0QhXT830ml9HHs/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0MjYw/LTE2MDI0MTM5NTIt/OTc1Ni5qcGVn.jpeg',
         title: 'Lift Your Skinny Fists...',
         artist: 'Godspeed You! Black Emperor',
-        price: 'R$ 282,69',
+        price: 'R$ 141,89',
     },
 
     {
         id: 4,
-        imageUrl: 'https://i.discogs.com/McuaRZi6Yph3VlXWcnYBipCfNj1iBh1fIluo0SINC34/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNTg2/ODEtMTQyMjI4MDkw/OC0xMjY1LmpwZWc.jpeg',
+        imageUrl: 'https://i.discogs.com/GpvJnKA7sVgWqi_4M_ZNIc_uvTJVolS5Vk1JIH93RB0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MjYz/MjgtMTU0NjkyNjgw/OC0xNDcwLmpwZWc.jpeg',
         title: 'Jane Doe',
         artist: 'Converge',
-        price: 'R$ 250,00',
+        price: 'R$ 1.135,12',
     },
 
     {
         id: 5,
-        imageUrl: 'https://i.discogs.com/zksA0ccqbdnWuObv2pKZASo0jYyVeRaGG2g_U_2yBY0/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2Nzk4/OTMtMTU4NTI2MDYx/NS0yODYxLmpwZWc.jpeg',
+        imageUrl: 'https://i.discogs.com/et1xQFBrflXxHmD9aQseCqz8joFbyQJm55cNaBC8IIk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2OTAw/OTAtMTYwNzMwMzIw/Mi0yNzE5LmpwZWc.jpeg',
         title: 'To Be Kind',
         artist: 'Swans',
-        price: 'R$ 650,00',
+        price: 'R$ 198,08',
     },
 
     {
@@ -46,71 +46,71 @@ export const vinly_mock: vinly[] = [
         imageUrl: 'https://i.discogs.com/IZ_duZiWeqpXB0kHH71LNodDec-aQFlj6BvViHWAWgM/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NzI0/NTk4LTE2MjgyMzI3/NjAtOTIzMi5qcGVn.jpeg',
         title: 'MM..FOOD',
         artist: 'MF DOOM',
-        price: 'R$ 590,00',
+        price: 'R$ 164,54',
     },
 
     {
         id: 7,
-        imageUrl: 'https://i.discogs.com/UEVdNfk3qz5AmYbvytKdWlpIvlB87gQDkOaNJYcX3Go/rs:fit/g:sm/q:90/h:562/w:560/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NjI4/OTUyLTE2MDQ3Njg5/NDEtODE4MS5qcGVn.jpeg',
+        imageUrl: 'https://i.discogs.com/LEqjpbKpjk4fWFxNM0PCaIw0vBJXm2-3L8IqCSz64P8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NjMz/NTEzLTE1OTYyMDc2/NjEtNjY5Mi5qcGVn.jpeg',
         title: '1000 gecs and The Tree...',
-        artist: '100 gecs',
-        price: 'R$ 492,07',
+        artist: '100 Gecs',
+        price: 'R$ 141,55',
     },
 
     {
         id: 8,
-        imageUrl: 'https://i.discogs.com/5Lk_r8xwV7ug2RzW52i_QguL1fKie5bZ6v5LnJ-H3_w/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzODI2/MzMxLTE2Mzc1NzQx/NDctMjUzMC5qcGVn.jpeg',
+        imageUrl: 'https://i.discogs.com/zNHSS_l_J_BKBRLfGbe4HdSzJYUfzuoDZ0Eq2XiNZyo/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NTQ4/ODE3LTE1Nzg2MDY0/NTctNjIxOS5qcGVn.jpeg',
         title: 'The Sacrificial Code',
         artist: 'Kali Malone',
-        price: 'R$ 129,90',
+        price: 'R$ 505,13',
     },
 
     {
         id: 9,
-        imageUrl: 'https://i.discogs.com/y59WjDWoShYbpyu6Lke6JdLSe0Wfw7KZK8DIfWe2Cew/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2Nzg1/LTE2Mjg2Mzc4Nzct/NDM3MS5qcGVn.jpeg',
+        imageUrl: 'https://i.discogs.com/DbFkeom4Di6YH9X5VHrDUyvUIYKBJYkpVycRbL6d6ms/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMjg4/ODM3LTE1NTE1MzU1/ODMtOTEyMC5qcGVn.jpeg',
         title: 'Venereology',
         artist: 'Merzbow',
-        price: 'R$ 142,25',
+        price: 'R$ 851,28',
     },
 
     {
         id: 10,
-        imageUrl: 'https://i.discogs.com/QLyIhlYqedqh2Ubjvp688ey4qikgvQ45Xi3Rwrc_rG4/rs:fit/g:sm/q:90/h:510/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjA3/NTMtMTIwMjUwODc3/OC5qcGVn.jpeg',
-        title: 'And Still, Wanting',
+        imageUrl: 'https://i.discogs.com/p3gQXkNVB-b2kFrpNImZIP1mdU6xnWLxQRhBF_QtmZM/rs:fit/g:sm/q:90/h:607/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyOTc5/ODQtMTU0OTg2MTA3/Mi05MTc1LmpwZWc.jpeg',
+        title: 'Frozen Niagara Falls',
         artist: 'Prurient',
-        price: 'R$ 75,87',
+        price: 'R$ 221,35',
     },
 
     {
         id: 11,
-        imageUrl: 'https://i.discogs.com/p01Er22nl_ZI97V5Lhqcd-fMquYiYw9k8-fEFVjVkWE/rs:fit/g:sm/q:90/h:600/w:380/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzODQ1/MzIzLTE1NjY0MjEw/MzYtNDgyNi5qcGVn.jpeg',
-        title: 'Dead Lotus',
-        artist: 'Merzbow',
-        price: 'R$ 227,49',
+        imageUrl: 'https://i.discogs.com/6icxFPKdCe3U0QEbdHMJsT4rXtu9OwTBb1_rO1ClWcU/rs:fit/g:sm/q:90/h:598/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzA3/NjM1LTE2MjMyODcy/NzMtNTA2NS5qcGVn.jpeg',
+        title: 'You Wont Get What Yo...',
+        artist: 'Daughters',
+        price: 'R$ 180,71',
     },
 
     {
         id: 12,
-        imageUrl: 'https://i.discogs.com/dQIxDN7PtPg-m0V0GknGrD-RcTm3cj0LUdxUZWK7FuM/rs:fit/g:sm/q:90/h:555/w:486/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyNTU2/NTQtMTQ1NzQwMzc0/NS0zNTQyLmpwZWc.jpeg',
+        imageUrl: 'https://i.discogs.com/99YwHQzkorFk1W2LkrfctB32EOu86SdPwB0vPJLeQ34/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NDg3/MDYtMTY2NzAzMDYz/MS0xODM3LmpwZWc.jpeg',
         title: 'Sheer Hellish Miasma',
         artist: 'Kevin Drumm',
-        price: 'R$ 189,67',
+        price: 'R$ 579,76',
     },
 
     {
         id: 13,
-        imageUrl: 'https://i.discogs.com/45T26pCmcA9SusGrV2OpXHojMfMnCcIODOhm_UVQWRE/rs:fit/g:sm/q:90/h:596/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwMjQ3/MTYtMTQwOTEwNTAw/OS03NDk3LmpwZWc.jpeg',
+        imageUrl: 'https://i.discogs.com/Sp-Bh705bUUXv6BoOJiW5hGeKNKJ27E4qZqvAu5PKKU/rs:fit/g:sm/q:90/h:609/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MzM1/ODA1LTE2Njc5NDIx/MzYtMjkyMS5qcGVn.jpeg',
         title: 'Deathconsciousness',
         artist: 'Have a Nice Life',
-        price: 'R$ 238,98',
+        price: 'R$ 396,33',
     },
 
     {
         id: 14,
-        imageUrl: 'https://i.discogs.com/79QPtjguKV0xl0BzMhe-S1V04iFj4JT_ARxEKcFQOAg/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY5NTYw/My0xNjg0ODk2MTA0/LTM1NTAuanBlZw.jpeg',
+        imageUrl: 'https://i.discogs.com/KUUZ7YnfuzaIRAxtLVXz5CQrNtJaY9wxNID3_uKKkVs/rs:fit/g:sm/q:90/h:602/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY5NTYw/My0xNjg0ODk2MTA0/LTM1NTAuanBlZw.jpeg',
         title: 'Hanatarash 3',
         artist: 'Hanatarash',
-        price: 'R$ 938,85',
+        price: 'R$ 936,47',
     },
 
     {
@@ -118,14 +118,14 @@ export const vinly_mock: vinly[] = [
         imageUrl: 'https://i.discogs.com/QUsBq0Mmu-J6-sh7hHL7K6ZxdrtMkYN8h9j9W6ErFCo/rs:fit/g:sm/q:90/h:450/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYyOTEw/MS0xMTQwNjI1NTI0/LmpwZWc.jpeg',
         title: 'Black One',
         artist: 'Sunn O)))',
-        price: 'R$ 163,76',
+        price: 'R$ 441,39',
     },
 
     {
         id: 16,
-        imageUrl: 'https://i.discogs.com/ePDqkxfJalPZKdastMCIRKWBptdpyGVxJUTBbABbuts/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMDg3/NS0xMjQ1MzUxOTAx/LmpwZWc.jpeg',
+        imageUrl: 'https://i.discogs.com/ma9No1pg9ILxRVN1y9nU-ybVmdStPjlNXLh7Qi4rOLw/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5MTUx/Mi0xNDM4MjU0MzM4/LTEwMDEuanBlZw.jpeg',
         title: 'Black Vase',
         artist: 'Prurient',
-        price: 'R$ 41,88',
+        price: 'R$ 479,85',
     },
 ]

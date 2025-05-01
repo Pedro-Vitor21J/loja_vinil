@@ -5,14 +5,13 @@
 
 .footer_container {
     width: 100%;
-    max-width: 1280px;
-    padding-left: 14rem;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     height: 41.1rem;
     font-family: var(--fontDefault);
     color: var(--pureWhite);
-    margin-top: 20rem;
+    margin: 20rem 0 0 14rem;
 }
 
 .footer_category_information{
