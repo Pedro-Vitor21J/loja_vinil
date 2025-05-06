@@ -1,13 +1,63 @@
-<div class="buy_container">
-    <div class="vinly_img">
-        <img src="" alt="">
-        <p>Clique na Imagem</p>
+<main>
+    <div class="buy_container">
+
+        <!--Imagens do Vinly-->
+        <div class="vinly_img">
+            <img src="https://i.discogs.com/86Et-mMsyv4fQFEU7PydJE3G3s2gXOga4YIqkGRky6s/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjAw/MjM4LTE2MDUyNjk3/MDMtMjg5NS5qcGVn.jpeg" alt="">
+            <a href="#">Mais Imagens</a>
+        </div>
+        
+        <!--Informações principais do vinil-->
+        <div class="main_information">
+            <p id="title">Amplifier Workship</p>
+            <p id="artist">Artista: Boris</p>
+            <p id="price">Preço: R$ 130,54</p>
+            <p id="format">Formato: LP</p>
+            <p id="genre">Gênero: Rock</p>
+            <p id="style">Estilo: Drone Metal, Sludge Metal, Doom Metal</p>
+            <p id="quant_disc">N° de Disco: 2</p>
+            <p id="color">Cor: Preto</p>
+            <p id="release">Lançamento: 25/11/1998</p>
+        </div>
+
+        <!--Linha de Separação entre as informações principais com a informação do vendedor-->
+        <hr id="line">
+
+        <div class="seller_purchase">
+            <!--Informações do Vendedor-->
+            <div class="seller_information">
+                <p id="seller">Vendedor: PressVinly</p>
+                <p id="seller_reputation">Reputação do Vendedor: Exelente</p>
+                <p id="conditions">Condições: Novo/Lacrado</p>
+                <p id="stock"> Estoque: 100</p>
+             </div>
+            
+                    <!--Local de Compra 
+                    * Botão de Quantidade, 
+                    * Botão Adicionar ao Carrinho
+                    * Botão Adicionar aos Favoritos-->
+                    <div class="place_purchase">
+            
+                        <!--Botão Quantidade-->
+                        <div class="quantity_button">
+                            <p>Quant.</p>
+                            <input type="button" value="+">
+                            <input type="button" value="1">
+                            <input type="button" value="-">
+                        </div>
+            
+                        <!--Botão Adicionar ao carrinho-->
+                        <input type="button" value="Adicionar ao carrinho" id="cart">
+            
+                        <!--Botão Adicionar ao favorito-->
+                        <input type="button" value="Adicionar ao favoritos" id="favorite">
+            
+                        <!--Preço Total-->
+                        <p id="total_price">Preço Total: R$ 130,54</p>
+            
+                    </div>
+        </div>
+
     </div>
 
-    <div class="vinly_information">
-        <p id="title">The Dark Side</p>
-        <p id="artist">por Pink Floyd</p>
-        <p id="price">R$ 541,45</p>
-        <p id="stock">Em Estoque: 100</p>
-    </div>
-</div>
+</main>

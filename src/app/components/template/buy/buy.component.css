@@ -1,3 +1,107 @@
+/*Definindo as margens principais*/
 .buy_container{
-    background-color: gray;
+    margin: 6rem 0 0 10rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/*Alterando imagem*/
+.vinly_img{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    max-width: 330px;
+}
+
+/*Alterando imagem*/
+.vinly_img img{
+    width: 33rem;
+    height: 33rem;
+}
+
+/*Alterando imagem: link*/
+.vinly_img a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fontDefault);
+    text-decoration: none;
+    color: #0000FF;
+    font-size: 1.8rem;
+}
+
+/*Alterando as informações principais*/
+.main_information{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fontDefault);
+    color: var(--pureBlack);
+    font-size: 1.6rem;
+    gap: 1.4rem;
+    letter-spacing: 0.3px;
+}
+
+/*Aumenta a fonte do título*/
+#title{
+    font-size: 2.5rem;
+}
+
+/*Alterando a linha de separação*/
+#line{
+    height: 33rem;
+    width: 0.3rem;
+    background-color: var(--pureBlack);
+}
+
+.seller_information{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fontDefault);
+    color: var(--pureBlack);
+    font-size: 1.6rem;
+    letter-spacing: 0.3px;
+    gap:1.4rem
+}
+
+.place_purchase{
+    display: flex;
+    flex-direction: column;
+}
+
+.quantity_button{
+    display: flex;
+}
+
+.quantity_button p{
+    font-size: 1.6rem;
+    font-family: var(--fontDefault);
+    color: var(--pureBlack);
+    letter-spacing: 0.3px;
+    margin: 0 0.8rem 0 0;
+}
+
+.place_purchase{
+    display: flex;
+    flex-direction: column;
+}
+
+#cart, #favorite{
+    background-color: #CCCCCC;
+    border: none;
+    width: 16.4rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    color: var(--pureBlack);
+    font-family: var(--fontDefault)
+}
+
+#total_price{
+    font-family: var(--fontDefault);
+    font-size: 2rem;
+    letter-spacing: 0.3px;
+    font-weight: bold;
+    font-style: italic;
+    color: #106B49;
 }
