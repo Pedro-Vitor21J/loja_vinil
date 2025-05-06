@@ -1,13 +1,24 @@
-/*Definindo as margens principais*/
+/*Definindo as margens principais.*/
 .buy_container{
     margin: 6rem 0 0 10rem;
-    display: flex;
-    justify-content: space-between;
     width: 100%;
     max-width: 1200px;
 }
 
-/*Alterando imagem*/
+/* Definindo uma fonte padrão*/
+p, h1, a, input {
+    /*font-family: helvetica;*/
+    font-family: var(--fontDefault); 
+    color: var(--pureBlack);
+    font-size: 1.6rem;
+    letter-spacing: 1.5px;
+}
+
+.img_main_seller_purchase{
+    display: flex;
+}
+
+/*Estilizando a iagem*/
 .vinly_img{
     display: flex;
     flex-direction: column;
@@ -15,93 +26,134 @@
     max-width: 330px;
 }
 
-/*Alterando imagem*/
+/*Estilizando a altura e largura da imagem*/
 .vinly_img img{
     width: 33rem;
     height: 33rem;
 }
 
-/*Alterando imagem: link*/
+/*Estilizando o link "mais imagens"*/
 .vinly_img a{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: var(--fontDefault);
     text-decoration: none;
     color: #0000FF;
     font-size: 1.8rem;
 }
 
-/*Alterando as informações principais*/
+/*Estilizando as informações principais*/
 .main_information{
     display: flex;
     flex-direction: column;
-    font-family: var(--fontDefault);
-    color: var(--pureBlack);
-    font-size: 1.6rem;
     gap: 1.4rem;
-    letter-spacing: 0.3px;
+    margin: 0 5rem 0 3.5rem;
 }
 
-/*Aumenta a fonte do título*/
-#title{
+/*Aumenta a fonte do título (informações principais)*/
+#title_vinly{
     font-size: 2.5rem;
 }
 
-/*Alterando a linha de separação*/
+/*Estilizando a linha de separação*/
 #line{
     height: 33rem;
     width: 0.3rem;
     background-color: var(--pureBlack);
 }
 
+/*Estilizando as informações do vendedor*/
 .seller_information{
     display: flex;
     flex-direction: column;
-    font-family: var(--fontDefault);
-    color: var(--pureBlack);
-    font-size: 1.6rem;
-    letter-spacing: 0.3px;
     gap:1.4rem
 }
 
+/*Alinhando horizontalmente (linha) o botão de quantidade*/
+.quantity_button{
+    display: flex;
+    align-items: center;    
+}
+
+/*Alinhando verticalmente (coluna) o local de compra*/
 .place_purchase{
     display: flex;
     flex-direction: column;
+    gap: 2rem;
 }
 
-.quantity_button{
-    display: flex;
-}
-
-.quantity_button p{
-    font-size: 1.6rem;
-    font-family: var(--fontDefault);
-    color: var(--pureBlack);
-    letter-spacing: 0.3px;
+/*Inserido uma margin direita para a palavra Quantidade*/
+#quant{
     margin: 0 0.8rem 0 0;
 }
 
-.place_purchase{
+/*Estilizando a unidade*/
+#unit {
+    font-size: 1.3rem;
+    border: solid;
+    border-width: 1px 0 1px 0;
+    width: 2rem;
+    height: 2.5rem;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+/*Estilizando os botões de adicionar e remover unidades*/
+.quantity_button input{
+    background-color: #CCCCCC;
+    border: solid;
+    border-width: 1px;
+    width: 2rem;
+    height: 2.5rem;
+    font-family: var(--fontDefault);
+    font-size: 1.3rem;
+    color: var(--pureBlack);
+}
+
+/*Estilizando o botão carrinho e o botão favorito*/
 #cart, #favorite{
     background-color: #CCCCCC;
     border: none;
     width: 16.4rem;
     height: 3rem;
-    font-size: 1.3rem;
-    color: var(--pureBlack);
-    font-family: var(--fontDefault)
+    font-size: 1.4rem;
 }
 
+/*Estilizando o preço total*/
 #total_price{
-    font-family: var(--fontDefault);
     font-size: 2rem;
-    letter-spacing: 0.3px;
     font-weight: bold;
     font-style: italic;
     color: #106B49;
+}
+
+/*Criando um espaçamento entre as informações do vendedor com o local de compra*/
+.seller_purchase{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-left: 2rem;
+}
+
+.group_other_information{
+    display: flex;
+}
+
+.group_description_additional{
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 780px;
+    line-height: 25px;
+    gap: 2rem;
+}
+
+#description_title{
+    font-weight: bold;
+    font-size: 2.2rem;
 }
