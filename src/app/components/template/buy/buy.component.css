@@ -6,7 +6,7 @@
 }
 
 /* Definindo uma fonte padrão*/
-p, h1, a, input {
+p, h1, a, input, li {
     /*font-family: helvetica;*/
     font-family: var(--fontDefault); 
     color: var(--pureBlack);
@@ -136,24 +136,82 @@ p, h1, a, input {
     margin-left: 2rem;
 }
 
+/*Margem entre outras informações e informação principal.*/
 .group_other_information{
     display: flex;
+    margin: 4.8rem 0 0 0;
+    gap: 7rem;
 }
 
-.group_description_additional{
+/*Alinhando verticalmente descrição e adicional*/
+.group_description_additional, .group_tracklist_streaming{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+/*Estilizando a descrição*/
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+/*Estilizando a margem entre o título (informação adicional) com o conteúdo*/
+.description, .additional_information, .tracklist, .streaming{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/*Marge entre os parágrafos da descrição*/
+.description_content p:not(:last-child){
+    margin: 0 0 2rem 0;
+}
+
+/*Estilizando a fonte h1 padrão para das informações adicionais*/
+#description_title, #additional_information_title, #tracklist_title, #available{
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.additional_information_content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem
+}
+
+.group_tracklist_streaming{
     display: flex;
     flex-direction: column;
 }
 
-.description{
+.tracks{
+    line-height: 3rem;
+}
+
+.tracks {
+    list-style-position: inside; 
+}
+
+#total_duration{
+    font-weight: bold;
+}
+
+.streaming{
     display: flex;
-    flex-wrap: wrap;
-    max-width: 780px;
-    line-height: 25px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav_streaming{
+    display: flex;
     gap: 2rem;
 }
 
-#description_title{
-    font-weight: bold;
-    font-size: 2.2rem;
+.nav_streaming a{
+    font-size: 3.5rem;
 }

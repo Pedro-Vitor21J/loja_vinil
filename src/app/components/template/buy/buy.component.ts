@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrl: './buy.component.css'
 })
 export class BuyComponent {
+  unit: number = 1;
 
+  summ() {
+    this.unit ++
+  };
+
+  sub() {
+    this.unit --
+  };
 }

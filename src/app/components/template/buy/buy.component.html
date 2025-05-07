@@ -10,7 +10,7 @@
             
             <!--Informações principais do vinil-->
             <div class="main_information">
-                <h1 id="title_vinly">Amplifier Workship</h1>
+                <h1 id="title_vinly">Amplifier Worship</h1>
                 <p id="artist">Artista: Boris</p>
                 <p id="price">Preço: R$ 130,54</p>
                 <p id="format">Formato: LP</p>
@@ -43,9 +43,9 @@
                     <!--Botão Quantidade-->
                     <div class="quantity_button">
                         <p id="quant">Quant.</p>
-                        <input type="button" value="+">
-                        <p id="unit">1</p>
-                        <input type="button" value="-">
+                        <input type="button" value="+" (click)=summ()>
+                        <p id="unit">{{unit}}</p>
+                        <input type="button" value="-" (click)=sub()>
                     </div>
                     
                     <!--Botão Adicionar ao carrinho-->
@@ -59,45 +59,44 @@
         </div>
 
         <div class="group_other_information">
-
             <div class="group_description_additional">
                 <div class="description">
                     <h1 id="description_title">Descrição</h1>
-                    <p id="description_content">
-                    Raro e essencial para fãs de drone, doom e noise! "Amplifier Worship", lançado originalmente em 1998, é um marco absoluto na discografia da banda japonesa Boris. Esta edição dupla em vinil traz o som massivo e hipnótico do álbum em todo seu esplendor, agora remasterizado para uma experiência ainda mais imersiva.
-                    <br>
-                    Com uma prensagem de alta qualidade e capa gatefold, este lançamento reúne peso extremo, ambiência sufocante e texturas sonoras distorcidas em uma jornada sonora única. Destaque para faixas como "Huge", "Vomitself" e "Ganbou-Ki", que redefinem os limites entre música e ruído.
-                    </p>
+                    <div class="description_content">
+                        <p>Raro e essencial para fãs de drone, doom e noise! "Amplifier Worship", lançado originalmente em 1998, é um marco absoluto na discografia da banda japonesa Boris. Esta edição dupla em vinil traz o som massivo e hipnótico do álbum em todo seu esplendor, agora remasterizado para uma experiência ainda mais imersiva.</p>
+
+                        <p>Com uma prensagem de alta qualidade e capa gatefold, este lançamento reúne peso extremo, ambiência sufocante e texturas sonoras distorcidas em uma jornada sonora única. Destaque para faixas como "Huge", "Vomitself" e "Ganbou-Ki", que redefinem os limites entre música e ruído.</p>
+                    </div>
                 </div>
 
                 <div class="additional_information">
-                    <h1 id="additional_information_title">informações Adicionais</h1>
-                    <p class="additional_information_content">
-                        Peso: 0,55 kg <br>
-                        Dimensões: 32 x 32 x 2cm <br>
-                        Selo: Third Man Records <br>
-                    </p>
-
+                    <h1 id="additional_information_title">Informações adicionais</h1>
+                    <div class="additional_information_content">
+                        <p>Peso: 0,55 kg</p>
+                        <p>Dimensões: 32 x 32 x 2cm</p>
+                        <p>Selo: Third Man Records</p>
+                    </div>
                 </div>
-
             </div>
 
-            <div class="group_tracklist">
-                <h1 id="tracklist_title">Lista de Faixas</h1>
-                <p class="tracklist">
-                    1. Huge (9:15) <br>
-                    2. Ganbouki (15:43) <br>
-                    3. Hama (7:31) <br>
-                    4. Kuruimizu (14:27) <br>
-                    5. Vomitself (16:58) <br>
-                </p>
-                <p id="total_duration">Duração total: 1:03:00</p>
+            <div class="group_tracklist_streaming">
+                <div class="tracklist">
+                    <h1 id="tracklist_title">Lista de faixas</h1>
+                    <ol class="tracks">
+                        <li>Huge (9:15)</li>
+                        <li>Ganbouki (15:43)</li>
+                        <li>Hama (7:31)</li>
+                        <li>Kuruimizu (14:27)</li>
+                        <li>Vomitself (16:58)</li>
+                    </ol>
+                    <p id="total_duration">Duração total: 1:03:58</p>
+                </div>
 
                 <div class="streaming">
                     <p id="available">Disponível em:</p>
                     <nav class="nav_streaming">
-                        <a href="#"><i class="fa-brands fa-spotify"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://open.spotify.com/intl-pt/album/2FRA0dAkkapRAy7sH6c4yu" target="_blank"><i class="fa-brands fa-spotify"></i></a>
+                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_kwN7m7PlfcJQVvsRfs7lvAEd0dnB_DO8c" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                     </nav>
                 </div>
             </div>
