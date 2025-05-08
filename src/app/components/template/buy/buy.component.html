@@ -1,105 +1,20 @@
 <main>
     <div class="buy_container">
-
         <div class="img_main_seller_purchase">
-            <!--Imagens do Vinly-->
-            <div class="vinly_img">
-                <img src="https://i.discogs.com/86Et-mMsyv4fQFEU7PydJE3G3s2gXOga4YIqkGRky6s/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjAw/MjM4LTE2MDUyNjk3/MDMtMjg5NS5qcGVn.jpeg" alt="">
-                <a href="#">Mais Imagens</a>
-            </div>
-            
-            <!--Informações principais do vinil-->
-            <div class="main_information">
-                <h1 id="title_vinly">Amplifier Worship</h1>
-                <p id="artist">Artista: Boris</p>
-                <p id="price">Preço: R$ 130,54</p>
-                <p id="format">Formato: LP</p>
-                <p id="genre">Gênero: Rock</p>
-                <p id="style">Estilo: Drone Metal, Sludge Metal, Doom Metal</p>
-                <p id="quant_disc">N° de Disco: 2</p>
-                <p id="color">Cor: Preto</p>
-                <p id="release">Lançamento: 25/11/1998</p>
-            </div>
 
-            <!--Linha de Separação entre as informações principais com a informação do vendedor-->
+            <!--Informações principais do disco-->
+            <app-vinly-information></app-vinly-information>
+            
+            <!--Linha de Separação entre as informações principais disco com a informação do vendedor-->
             <hr id="line">
 
-            <!--Informações do Vendedor e Local de Compra-->
-            <div class="seller_purchase">
-                <!--Informações do Vendedor-->
-                <div class="seller_information">
-                    <p id="seller">Vendedor: PressVinly</p>
-                    <p id="seller_reputation">Reputação do Vendedor: Exelente</p>
-                    <p id="conditions">Condições: Novo/Lacrado</p>
-                    <p id="stock"> Estoque: 100</p>
-                </div>
-                
-                <!--Local de Compra 
-                * Botão de Quantidade, 
-                * Botão Adicionar ao Carrinho
-                * Botão Adicionar aos Favoritos-->
-                <div class="place_purchase">
-                
-                    <!--Botão Quantidade-->
-                    <div class="quantity_button">
-                        <p id="quant">Quant.</p>
-                        <input type="button" value="+" (click)=summ()>
-                        <p id="unit">{{unit}}</p>
-                        <input type="button" value="-" (click)=sub()>
-                    </div>
-                    
-                    <!--Botão Adicionar ao carrinho-->
-                    <input type="button" value="Adicionar ao carrinho" id="cart">
-                    <!--Botão Adicionar ao favorito-->
-                    <input type="button" value="Adicionar ao favoritos" id="favorite">
-                    <!--Preço Total-->
-                    <p id="total_price">Preço Total: R$ 130,54</p>
-                </div>
-            </div>
+            <!--Informações do vendedor-->
+            <app-seller-purchase></app-seller-purchase>
+
         </div>
 
-        <div class="group_other_information">
-            <div class="group_description_additional">
-                <div class="description">
-                    <h1 id="description_title">Descrição</h1>
-                    <div class="description_content">
-                        <p>Raro e essencial para fãs de drone, doom e noise! "Amplifier Worship", lançado originalmente em 1998, é um marco absoluto na discografia da banda japonesa Boris. Esta edição dupla em vinil traz o som massivo e hipnótico do álbum em todo seu esplendor, agora remasterizado para uma experiência ainda mais imersiva.</p>
+         <!--Outras indormações-->
+        <app-other-information></app-other-information>
 
-                        <p>Com uma prensagem de alta qualidade e capa gatefold, este lançamento reúne peso extremo, ambiência sufocante e texturas sonoras distorcidas em uma jornada sonora única. Destaque para faixas como "Huge", "Vomitself" e "Ganbou-Ki", que redefinem os limites entre música e ruído.</p>
-                    </div>
-                </div>
-
-                <div class="additional_information">
-                    <h1 id="additional_information_title">Informações adicionais</h1>
-                    <div class="additional_information_content">
-                        <p>Peso: 0,55 kg</p>
-                        <p>Dimensões: 32 x 32 x 2cm</p>
-                        <p>Selo: Third Man Records</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="group_tracklist_streaming">
-                <div class="tracklist">
-                    <h1 id="tracklist_title">Lista de faixas</h1>
-                    <ol class="tracks">
-                        <li>Huge (9:15)</li>
-                        <li>Ganbouki (15:43)</li>
-                        <li>Hama (7:31)</li>
-                        <li>Kuruimizu (14:27)</li>
-                        <li>Vomitself (16:58)</li>
-                    </ol>
-                    <p id="total_duration">Duração total: 1:03:58</p>
-                </div>
-
-                <div class="streaming">
-                    <p id="available">Disponível em:</p>
-                    <nav class="nav_streaming">
-                        <a href="https://open.spotify.com/intl-pt/album/2FRA0dAkkapRAy7sH6c4yu" target="_blank"><i class="fa-brands fa-spotify"></i></a>
-                        <a href="https://www.youtube.com/playlist?list=OLAK5uy_kwN7m7PlfcJQVvsRfs7lvAEd0dnB_DO8c" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                    </nav>
-                </div>
-            </div>
-        </div>
     </div>
 </main>

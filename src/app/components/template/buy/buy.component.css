@@ -1,58 +1,21 @@
-/*Definindo as margens principais.*/
+/*Defini as margens principais.*/
 .buy_container{
     margin: 6rem 0 0 10rem;
     width: 100%;
     max-width: 1200px;
 }
 
-/* Definindo uma fonte padrão*/
-p, h1, a, input, li {
-    /*font-family: helvetica;*/
+/*Define a estilização da fonte padrão*/
+app-vinly-information, app-seller-purchase, app-other-information{
     font-family: var(--fontDefault); 
     color: var(--pureBlack);
     font-size: 1.6rem;
     letter-spacing: 1.5px;
 }
 
+/*Alinha horizontalmente os componentes (vinly-information e seller-purchase) e a linha de separação*/
 .img_main_seller_purchase{
     display: flex;
-}
-
-/*Estilizando a iagem*/
-.vinly_img{
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-    max-width: 330px;
-}
-
-/*Estilizando a altura e largura da imagem*/
-.vinly_img img{
-    width: 33rem;
-    height: 33rem;
-}
-
-/*Estilizando o link "mais imagens"*/
-.vinly_img a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: #0000FF;
-    font-size: 1.8rem;
-}
-
-/*Estilizando as informações principais*/
-.main_information{
-    display: flex;
-    flex-direction: column;
-    gap: 1.4rem;
-    margin: 0 5rem 0 3.5rem;
-}
-
-/*Aumenta a fonte do título (informações principais)*/
-#title_vinly{
-    font-size: 2.5rem;
 }
 
 /*Estilizando a linha de separação*/
@@ -62,156 +25,3 @@ p, h1, a, input, li {
     background-color: var(--pureBlack);
 }
 
-/*Estilizando as informações do vendedor*/
-.seller_information{
-    display: flex;
-    flex-direction: column;
-    gap:1.4rem
-}
-
-/*Alinhando horizontalmente (linha) o botão de quantidade*/
-.quantity_button{
-    display: flex;
-    align-items: center;    
-}
-
-/*Alinhando verticalmente (coluna) o local de compra*/
-.place_purchase{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-/*Inserido uma margin direita para a palavra Quantidade*/
-#quant{
-    margin: 0 0.8rem 0 0;
-}
-
-/*Estilizando a unidade*/
-#unit {
-    font-size: 1.3rem;
-    border: solid;
-    border-width: 1px 0 1px 0;
-    width: 2rem;
-    height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/*Estilizando os botões de adicionar e remover unidades*/
-.quantity_button input{
-    background-color: #CCCCCC;
-    border: solid;
-    border-width: 1px;
-    width: 2rem;
-    height: 2.5rem;
-    font-family: var(--fontDefault);
-    font-size: 1.3rem;
-    color: var(--pureBlack);
-}
-
-/*Estilizando o botão carrinho e o botão favorito*/
-#cart, #favorite{
-    background-color: #CCCCCC;
-    border: none;
-    width: 16.4rem;
-    height: 3rem;
-    font-size: 1.4rem;
-}
-
-/*Estilizando o preço total*/
-#total_price{
-    font-size: 2rem;
-    font-weight: bold;
-    font-style: italic;
-    color: #106B49;
-}
-
-/*Criando um espaçamento entre as informações do vendedor com o local de compra*/
-.seller_purchase{
-    display: flex;
-    flex-direction: column;
-    gap: 2.5rem;
-    margin-left: 2rem;
-}
-
-/*Margem entre outras informações e informação principal.*/
-.group_other_information{
-    display: flex;
-    margin: 4.8rem 0 0 0;
-    gap: 7rem;
-}
-
-/*Alinhando verticalmente descrição e adicional*/
-.group_description_additional, .group_tracklist_streaming{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem
-}
-
-/*Estilizando a descrição*/
-.description{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 800px;
-    line-height: 25px;
-    text-align: justify;
-}
-
-/*Estilizando a margem entre o título (informação adicional) com o conteúdo*/
-.description, .additional_information, .tracklist, .streaming{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-/*Marge entre os parágrafos da descrição*/
-.description_content p:not(:last-child){
-    margin: 0 0 2rem 0;
-}
-
-/*Estilizando a fonte h1 padrão para das informações adicionais*/
-#description_title, #additional_information_title, #tracklist_title, #available{
-    font-weight: bold;
-    font-size: 2.2rem;
-}
-
-.additional_information_content{
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem
-}
-
-.group_tracklist_streaming{
-    display: flex;
-    flex-direction: column;
-}
-
-.tracks{
-    line-height: 3rem;
-}
-
-.tracks {
-    list-style-position: inside; 
-}
-
-#total_duration{
-    font-weight: bold;
-}
-
-.streaming{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.nav_streaming{
-    display: flex;
-    gap: 2rem;
-}
-
-.nav_streaming a{
-    font-size: 3.5rem;
-}

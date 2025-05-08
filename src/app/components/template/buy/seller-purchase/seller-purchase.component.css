@@ -1,0 +1,77 @@
+/*Estilizando as informações do vendedor*/
+.seller_information{
+    display: flex;
+    flex-direction: column;
+    gap:1.4rem
+}
+
+/*Alinhando horizontalmente (linha) o botão de quantidade*/
+.quantity_button{
+    display: flex;
+    align-items: center;    
+}
+
+/*Alinhando verticalmente (coluna) o local de compra*/
+.place_purchase{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/*Inserido uma margin direita para a palavra Quantidade*/
+#quant{
+    margin: 0 0.8rem 0 0;
+}
+
+/*Estilizando a unidade*/
+#unit {
+    font-size: 1.3rem;
+    border: solid;
+    border-width: 1px 0 1px 0;
+    width: 2rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estilizando os botões de adicionar e remover unidades*/
+.quantity_button input{
+    background-color: #CCCCCC;
+    border: solid;
+    border-width: 1px;
+    width: 2rem;
+    height: 2.5rem;
+    font-family: var(--fontDefault);
+    font-size: 1.3rem;
+    color: var(--pureBlack);
+}
+
+/*Estilizando o botão carrinho e o botão favorito*/
+#cart, #favorite{
+    background-color: #CCCCCC;
+    border: none;
+    width: 16.4rem;
+    height: 3rem;
+    font-size: 1.4rem;
+    font-family: var(--fontDefault); 
+    color: var(--pureBlack);
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+}
+
+/*Estilizando o preço total*/
+#total_price{
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #106B49;
+}
+
+/*Criando um espaçamento entre as informações do vendedor com o local de compra*/
+.seller_purchase{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-left: 2rem;
+}

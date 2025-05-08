@@ -1,0 +1,76 @@
+/*Cria uma margem entre os componentes vinly-information e seller-purchase. E alinha horizontalmente*/
+.other_information{
+    display: flex;
+    margin: 4.8rem 0 0 0;
+    gap: 7rem;
+}
+
+/*Estiliza os títulos*/
+#title{
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+/*Alinha verticalmente e cria uma margem entre as classes*/
+.description_additional, .tracklist_streaming{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+/*Estiliza a descrição*/
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    line-height: 2.5rem;
+    text-align: justify;
+}
+
+/*Estilizando a margem entre o título com o conteúdo*/
+.description, .additional, .tracklist, .streaming{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/*Marge entre os parágrafos da descrição*/
+.description_content p:not(:last-child){
+    margin: 0 0 2rem 0;
+}
+
+.additional_information_content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem
+}
+
+.group_tracklist_streaming{
+    display: flex;
+    flex-direction: column;
+}
+
+.tracks{
+    list-style-position: inside; 
+    line-height: 3rem;
+}
+
+#total_duration{
+    font-weight: bold;
+}
+
+.streaming{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav_streaming{
+    display: flex;
+    gap: 2rem;
+}
+
+.nav_streaming img{
+    width: 4.1rem;
+    height: 4.1rem;
+}   

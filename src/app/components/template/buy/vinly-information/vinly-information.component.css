@@ -1,0 +1,43 @@
+/*Alinha horizontalmente tudo*/
+.vinly_information_container{
+    display: flex;
+}
+
+/*Estiliza a classe de vinly_img*/
+.vinly_img{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    max-width: 330px;
+}
+
+/*Altera altura e largura da capa do vinil*/
+.vinly_img img{
+    width: 33rem;
+    height: 33rem;
+}
+
+/*Estiliza o link "Mais Imagens"*/
+.vinly_img a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #0000FF;
+    font-size: 1.8rem;
+}
+
+/*Estiliza as informações do disco*/
+.main_information{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin: 0 5rem 0 3.5rem;
+    max-width: 422px;
+}
+
+/*Aumenta a fonte do título*/
+#title{
+    font-size: 2.5rem;
+}

@@ -1,0 +1,32 @@
+<!--Informações do Vendedor e Local de Compra-->
+<div class="seller_purchase">
+    <!--Informações do Vendedor-->
+        <div class="seller_information">
+            <p id="seller">Vendedor: PressVinly</p>
+            <p id="seller_reputation">Reputação do Vendedor: Exelente</p>
+            <p id="conditions">Condições: Novo/Lacrado</p>
+             <p id="stock"> Estoque: 100</p>
+        </div>
+                
+    <!--Local de Compra 
+    * Botão de Quantidade, 
+    * Botão Adicionar ao Carrinho
+    * Botão Adicionar aos Favoritos-->
+    <div class="place_purchase">
+                
+        <!--Botão Quantidade-->
+        <div class="quantity_button">
+            <p id="quant">Quant.</p>
+            <input type="button" value="+" (click)=summ()>
+            <p id="unit">{{unit}}</p>
+            <input type="button" value="-" (click)=sub()>
+        </div>
+                    
+        <!--Botão Adicionar ao carrinho-->
+        <input type="button" value="Adicionar ao carrinho" id="cart">
+        <!--Botão Adicionar aos favoritos-->
+        <input type="button" value="Adicionar ao favoritos" id="favorite">
+        <!--Preço Total-->
+        <p id="total_price">Preço Total: R$ 130,54</p>
+    </div>
+</div>
