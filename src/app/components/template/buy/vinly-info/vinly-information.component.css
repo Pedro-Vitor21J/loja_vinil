@@ -1,5 +1,5 @@
 /*Alinha horizontalmente tudo*/
-.vinly_information_container{
+.vinly_info_container{
     display: flex;
 }
 
@@ -28,7 +28,7 @@
 }
 
 /*Estiliza as informações do disco*/
-.main_information{
+.main_info{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

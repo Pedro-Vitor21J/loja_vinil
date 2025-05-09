@@ -1,25 +1,32 @@
 /*Cria uma margem entre os componentes vinly-information e seller-purchase. E alinha horizontalmente*/
-.other_information{
+.other_info_container{
     display: flex;
     margin: 4.8rem 0 0 0;
     gap: 7rem;
 }
 
-/*Estiliza os títulos*/
+/*Estiliza os títulos (h1)*/
 #title{
     font-weight: bold;
     font-size: 2.2rem;
 }
 
 /*Alinha verticalmente e cria uma margem entre as classes*/
-.description_additional, .tracklist_streaming{
+.desc_add, .tracklist_streaming{
     display: flex;
     flex-direction: column;
     gap: 2rem
 }
 
+/*Estiliza a margem entre o título com o conteúdo*/
+.desc, .add, .tracklist, .streaming{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 /*Estiliza a descrição*/
-.description{
+.desc{
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
@@ -27,50 +34,37 @@
     text-align: justify;
 }
 
-/*Estilizando a margem entre o título com o conteúdo*/
-.description, .additional, .tracklist, .streaming{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-/*Marge entre os parágrafos da descrição*/
-.description_content p:not(:last-child){
+/*Margem entre os parágrafos*/
+.desc_content p:not(:last-child), .add_content p:not(:last-child){
     margin: 0 0 2rem 0;
 }
 
-.additional_information_content{
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem
-}
-
-.group_tracklist_streaming{
-    display: flex;
-    flex-direction: column;
-}
-
+/*Alinha os números e aumenta o espaçamento vertical*/
 .tracks{
     list-style-position: inside; 
     line-height: 3rem;
 }
 
+/*Aumenta a fonte da "Duração Total"*/
 #total_duration{
-    font-weight: bold;
+    font-size: 2rem;
 }
 
+/*Alinha horizontalmente e centraliza o streaming*/
 .streaming{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
+/*Margem entre os ícones*/
 .nav_streaming{
     display: flex;
     gap: 2rem;
 }
 
+/*Altera o Tamnho dos ícones*/
 .nav_streaming img{
     width: 4.1rem;
     height: 4.1rem;
-}   
+}

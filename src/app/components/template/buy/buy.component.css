@@ -6,7 +6,7 @@
 }
 
 /*Define a estilização da fonte padrão*/
-app-vinly-information, app-seller-purchase, app-other-information{
+app-vinly-information, app-seller-purchase, app-other-info{
     font-family: var(--fontDefault); 
     color: var(--pureBlack);
     font-size: 1.6rem;

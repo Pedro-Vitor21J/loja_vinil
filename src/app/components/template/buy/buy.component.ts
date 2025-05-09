@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { VinlyInformationComponent } from "./vinly-information/vinly-information.component";
+import { VinlyInformationComponent } from "./vinly-info/vinly-information.component";
 import { SellerPurchaseComponent } from "./seller-purchase/seller-purchase.component";
-import { OtherInformationComponent } from "./other-information/other-information.component";
+import { OtherInformationComponent } from "./other-info/other-information.component";
 
 @Component({
   selector: 'app-buy',
