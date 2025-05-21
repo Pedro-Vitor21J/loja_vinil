@@ -1,5 +1,5 @@
 export interface vinyl{
-    id: number;
+    id: string;
     imageUrl: string;
     title: string;
     artist: string;

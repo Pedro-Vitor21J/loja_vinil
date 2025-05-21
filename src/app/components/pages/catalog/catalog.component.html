@@ -10,6 +10,7 @@
   <div class="vinyl_card_group">
     @for (vinyl of vinyls; track vinyl.id) {
         <app-vinlycard
+          [id] = "vinyl.id"
           [imageUrl]="vinyl.imageUrl"
           [title]="vinyl.title"
           [artist]="vinyl.artist"

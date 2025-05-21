@@ -1,20 +1,20 @@
 <div class="vinyl_info_container">
     <!--Inseri imagens do vinly-->
     <div class="vinyl_img">
-        <img src="https://i.discogs.com/86Et-mMsyv4fQFEU7PydJE3G3s2gXOga4YIqkGRky6s/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MjAw/MjM4LTE2MDUyNjk3/MDMtMjg5NS5qcGVn.jpeg" alt="">
+        <img src={{vinyl_info?.imageUrl}} alt="">
         <a href="#">Mais Imagens</a>
     </div>
                 
     <!--Informações principais do vinil-->
     <div class="main_info">
-        <h1 id="title">Amplifier Worship</h1>
-        <p id="artist">Artista: Boris</p>
-        <p id="price">Preço: R$ 130,54</p>
-        <p id="format">Formato: LP</p>
-        <p id="genre">Gênero: Rock</p>
-        <p id="style">Estilo: Drone Metal, Sludge Metal, Doom Metal </p>
-        <p id="quant_disc">N° de Disco: 2</p>
-        <p id="color">Cor: Preto</p>
-        <p id="release">Lançamento: 25/11/1998</p>
+        <h1 id="title">{{vinyl_info?.title}}</h1>
+        <p id="artist">Artista: {{vinyl_info?.artist}}</p>
+        <p id="price">Preço: R$ {{vinyl_info?.price}}</p>
+        <p id="format">Formato: {{vinyl_info?.format}}</p>
+        <p id="genre">Gênero: {{vinyl_info?.genre}}</p>
+        <p id="style">Estilo: {{vinyl_info?.style}}</p>
+        <p id="quant_disc">N° de Disco: {{vinyl_info?.quantDisc}}</p>
+        <p id="color">Cor: {{vinyl_info?.color}}</p>
+        <p id="release">Lançamento: {{vinyl_info?.Release}}</p>
     </div>
 </div>

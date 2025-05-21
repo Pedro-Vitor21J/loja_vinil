@@ -17,4 +17,5 @@ import { FiltersComponent } from "../../template/filters/filters.component";
 
 export class CatalogComponent {
   vinyls: vinyl[] = vinyl_mock; 
+  
 }

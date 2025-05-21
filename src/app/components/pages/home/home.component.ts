@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 import { HeaderComponent } from "../../template/header/header.component";
 import { FooterComponent } from "../../template/footer/footer.component";
 import { BannerComponent } from "../../template/banner/banner.component";
@@ -11,5 +11,4 @@ import { CarouselComponent } from "../../template/carousel/carousel.component";
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
 }

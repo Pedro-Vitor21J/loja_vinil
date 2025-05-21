@@ -1,8 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { VinlycardComponent } from '../vinyl-card/vinlycard.component';
 import { vinyl } from '../../model/vinyl';
 import { vinyl_mock } from '../../../../mock/mocks';
-
 
 @Component({
   selector: 'app-carousel',
@@ -12,6 +11,7 @@ import { vinyl_mock } from '../../../../mock/mocks';
 })
 
 export class CarouselComponent {
+  @Input() carouselTitle: string = "Vinis Relacionados";
   vinyls: vinyl[] = vinyl_mock;
   totalCards: number = this.vinyls.length;
   currentIndex: number = 0;
