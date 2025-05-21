@@ -1,4 +1,29 @@
-.carousel_container{
+/*Alinha verticalmente os filhos*/
+.header_carousel{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/*Estiliza título*/
+#header_title{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: var(--fontDefault);
+    letter-spacing: 1.5px;
+    color: var(--lightBlack);
+}
+
+/*Estiliza linha*/
+#line{
+    height: 0.3rem;
+    width: 124rem;
+    background-color: var(--pureBlack);
+    width: auto;
+}
+
+/*Alinha o eixo transversal do carrosel*/
+.carousel{
     display: flex;
     justify-content: center;
 }
@@ -37,5 +62,4 @@
 .vinyl_card{
     display: flex;
     gap: 5rem;
-    transition: transform 0.5s ease-in-out;
 }

@@ -23,3 +23,10 @@ app-vinly-information, app-seller-purchase, app-other-info{
     width: 0.3rem;
     background-color: var(--pureBlack);
 }
+
+/*Espaça entre outras informações e carrosel*/
+.info_carousel{
+    display: flex;
+    flex-direction: column;
+    gap: 11.3rem;
+}

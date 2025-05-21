@@ -1,29 +1,37 @@
 <div class="carousel_container">
-
-<!--Vinis Card-->
-  <div class="card_container">
-
-    <!--Seta esquerda-->
-    <button class="arrow" (click)="prev()" [class.hidden]="!goPrev">
-        <i class="fa-solid fa-caret-left"></i>
-    </button>
-   
-    <div class="vinyl_card">
-      @for (vinyl of visibleVinyls; track vinyl.id) {
-          <app-vinlycard
-            [imageUrl]="vinyl.imageUrl" 
-            [title]="vinyl.title"
-            [artist]="vinyl.artist"
-            [price]="vinyl.price"
-          />
-        }
+  <!--Cabeçalho do carrosel-->
+  <header class="header_carousel">
+    <p id="header_title">Vinis Relacionados</p>
+    <hr id="line">
+  </header>
+  
+  <main class="carousel">
+  
+  <!--Vinis Card-->
+    <div class="card_container">
+  
+      <!--Seta esquerda-->
+      <button class="arrow" (click)="prev()" [class.hidden]="!goPrev">
+          <i class="fa-solid fa-caret-left"></i>
+      </button>
+     
+      <div class="vinyl_card">
+        @for (vinyl of visibleVinyls; track vinyl.id) {
+            <app-vinlycard
+              [imageUrl]="vinyl.imageUrl" 
+              [title]="vinyl.title"
+              [artist]="vinyl.artist"
+              [price]="vinyl.price"
+            />
+          }
+      </div>
+  
+      <!--Seta direita-->
+      <button class="arrow" (click)="next()" [class.hidden]="!goNext">
+          <i class="fa-solid fa-caret-right"></i>
+      </button>
+     
     </div>
-
-    <!--Seta direita-->
-    <button class="arrow" (click)="next()" [class.hidden]="!goNext">
-        <i class="fa-solid fa-caret-right"></i>
-    </button>
-   
-  </div>
-
+  
+  </main>
 </div>
