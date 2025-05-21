@@ -1,0 +1,8 @@
+/*Espaça os filhos*/
+.home_container{
+    display: flex;
+    flex-direction: column;
+    margin: 6rem 10rem 0 10rem;
+    width: auto;
+    gap: 19rem;
+}
