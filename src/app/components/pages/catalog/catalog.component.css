@@ -1,8 +1,8 @@
-.vinly_card_group{
+/*Estila os cards de vinis*/
+.vinyl_card_group{
     margin-left: 14rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
     max-width: 1200px;
 }

@@ -1,6 +1,6 @@
-import { vinly } from "../app/components/model/vinly";
+import { vinyl } from "../app/components/model/vinyl";
 
-export const vinly_mock: vinly[] = [
+export const vinyl_mock: vinyl[] = [
     {
         id: 1,
         imageUrl: 'https://i.discogs.com/ATLGAosI0De2OkAodnJYs4D9kGRkLgcCXBtMwcOWQ4E/rs:fit/g:sm/q:90/h:573/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNTM4/MDUzLTE1MzczMTA5/MTEtODA2Ni5qcGVn.jpeg',
@@ -20,7 +20,7 @@ export const vinly_mock: vinly[] = [
     {
         id: 3,
         imageUrl: 'https://i.discogs.com/ytQGzdHvEGjnWr3PEX36iaDeBpwRg0QhXT830ml9HHs/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0MjYw/LTE2MDI0MTM5NTIt/OTc1Ni5qcGVn.jpeg',
-        title: 'Lift Your Skinny Fists...',
+        title: 'Lift Your Skinny Fist...',
         artist: 'Godspeed You! Black Emperor',
         price: 'R$ 141,89',
     },
@@ -52,7 +52,7 @@ export const vinly_mock: vinly[] = [
     {
         id: 7,
         imageUrl: 'https://i.discogs.com/LEqjpbKpjk4fWFxNM0PCaIw0vBJXm2-3L8IqCSz64P8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NjMz/NTEzLTE1OTYyMDc2/NjEtNjY5Mi5qcGVn.jpeg',
-        title: '1000 gecs and The Tree...',
+        title: '1000 gecs and the Tree of Clues',
         artist: '100 Gecs',
         price: 'R$ 141,55',
     },

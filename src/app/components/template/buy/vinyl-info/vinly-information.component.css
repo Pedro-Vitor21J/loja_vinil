@@ -1,24 +1,23 @@
 /*Alinha horizontalmente tudo*/
-.vinly_info_container{
+.vinyl_info_container{
     display: flex;
 }
 
-/*Estiliza a classe de vinly_img*/
-.vinly_img{
+/*Estiliza a classe de vinyl_img*/
+.vinyl_img{
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
-    max-width: 330px;
 }
 
 /*Altera altura e largura da capa do vinil*/
-.vinly_img img{
+.vinyl_img img{
     width: 33rem;
     height: 33rem;
 }
 
 /*Estiliza o link "Mais Imagens"*/
-.vinly_img a{
+.vinyl_img a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +32,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 1.4rem;
-    margin: 0 5rem 0 3.5rem;
+    margin: 0 7.6rem 0 1rem;
     max-width: 422px;
 }
 

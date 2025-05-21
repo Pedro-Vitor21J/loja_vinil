@@ -11,20 +11,20 @@
     padding: 0 10rem;
 }
 
-/*Cabeçalho 1: Modificação link */
+/*Cabeçalho 1: Modificalink */
 .header1 a{
     color: var(--pureWhite);
     text-decoration: none;
     font-weight: bold;
 }
 
-/*Cabeçalho 1: Modificação Link */
+/*Cabeçalho 1: Modifica Link */
 .nav_header1 a{
     margin-right: 3rem;
     font-size: 3.6rem;
 }
 
-/*Cabeçalho 1: Modificação barra de pesquisa */
+/*Cabeçalho 1: Modifica barra de pesquisa */
 #search_bar input{
     font-family: var(--fontDefault);
     height: 5rem;
@@ -33,7 +33,7 @@
     padding: 2rem;
 }
 
-/*Cabeçalho 2*/
+/*Estiliza cabeçalho 2*/
 .header2{
     font-size: 2rem;
     font-family: var(--fontDefault);
@@ -41,10 +41,10 @@
     width: auto;
     height: 3.8rem;
     padding: 0 10rem;
-    letter-spacing: 0.3px;
+    letter-spacing: 1.5px;
 }
 
-/*Cabeçalho 2: Modificação Link */
+/*Cabeçalho 2: Modifica Link */
 .nav_header2 a{
     text-decoration: none;
     color: var(--lightBlack);

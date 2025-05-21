@@ -1,4 +1,4 @@
-export interface vinly{
+export interface vinyl{
     id: number;
     imageUrl: string;
     title: string;

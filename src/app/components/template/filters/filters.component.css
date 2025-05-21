@@ -1,6 +1,7 @@
 .filters{
     display: flex;
     font-family: var(--fontDefault);
+    letter-spacing: 1.5px;
     color: var(--lightBlack);
     margin: 3rem 0 0 10rem;
 }
@@ -11,7 +12,7 @@
     margin: 2.5rem 0 0 3.8rem;
 }
 
-.filters_vinly{
+.filters_vinyl{
     display: flex;
     font-weight: bold;
     font-size: 6rem;
@@ -32,6 +33,7 @@
     background-color: transparent;
     border: none;
     color: var(--lightBlack);
+    letter-spacing: 1.5px;
 }
 
 .filters_type input::placeholder{

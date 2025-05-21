@@ -1,0 +1,41 @@
+/*Alinha verticalmente e espaça*/
+.vinyl_card{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 0 0 0;
+    gap: 1rem;
+}
+
+/*Altera o tamaho da imagem*/
+.vinyl_img{
+    width: 23.4rem;
+    height: 23.4rem;
+}
+
+/*Estila as informações*/
+.card_information{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: var(--fontDefault);
+    color: var(--pureBlack);
+    letter-spacing: 1.5px;
+}
+
+/*Limita os caracteres*/
+.card_information p{
+    max-width: 230px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*Altera o tamanho das fontes do título e preço*/
+#vinyl_title, #vinyl_price{
+    font-size: 2rem;
+}
+
+/*Altera o tamanho da fonte artista*/
+#vinyl_artist{
+    font-size: 1.3rem;
+}

@@ -1,21 +1,25 @@
 <!--Cabeçalho-->
-<app-header></app-header>
+<header>
+  <app-header></app-header>
+</header>
 
 <main>
   <!--Filtros-->
 <app-filters></app-filters>
 <!--Vinis Card-->
-  <div class="vinly_card_group">
-    @for (vinly of vinlys; track vinly.title) {
+  <div class="vinyl_card_group">
+    @for (vinyl of vinyls; track vinyl.id) {
         <app-vinlycard
-          [imageUrl]="vinly.imageUrl"
-          [title]="vinly.title"
-          [artist]="vinly.artist"
-          [price]="vinly.price"
+          [imageUrl]="vinyl.imageUrl"
+          [title]="vinyl.title"
+          [artist]="vinyl.artist"
+          [price]="vinyl.price"
         />
         }
   </div>
 </main>
 
 <!--Rodapé-->
-<app-footer></app-footer>
+<footer>
+  <app-footer></app-footer>
+</footer>

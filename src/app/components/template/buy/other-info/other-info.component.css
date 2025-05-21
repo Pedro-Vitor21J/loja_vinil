@@ -1,8 +1,8 @@
-/*Cria uma margem entre os componentes vinly-information e seller-purchase. E alinha horizontalmente*/
+/*Alinha verticalmente e espaça os filhos*/
 .other_info_container{
     display: flex;
     margin: 4.8rem 0 0 0;
-    gap: 7rem;
+    gap: 9rem;
 }
 
 /*Estiliza os títulos (h1)*/

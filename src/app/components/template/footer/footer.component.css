@@ -12,6 +12,7 @@
     font-family: var(--fontDefault);
     color: var(--pureWhite);
     margin: 21rem 0 0 14rem;
+    letter-spacing: 1.5px;
 }
 
 .footer_category_information{

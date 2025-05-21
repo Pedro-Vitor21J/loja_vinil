@@ -1,0 +1,41 @@
+.carousel_container{
+    display: flex;
+    justify-content: center;
+}
+
+/*Alinha e espaça os filhos do conteúdo*/
+.card_container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    transition: 2s;
+} 
+
+/*Estilza os ícones de setas*/
+.arrow i{
+    font-size: 4rem;
+    color: var(--lightBlack);
+}
+
+/*Estilza os ícones de setas*/
+.arrow{
+    height: min-content;
+    width: min-content;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/*Oculta as setas*/
+.hidden{
+    visibility: hidden;
+}
+
+/*Alinha e espaça os cards*/
+.vinyl_card{
+    display: flex;
+    gap: 5rem;
+    transition: transform 0.5s ease-in-out;
+}

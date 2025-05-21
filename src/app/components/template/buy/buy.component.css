@@ -1,8 +1,7 @@
 /*Defini as margens principais.*/
 .buy_container{
-    margin: 6rem 0 0 10rem;
-    width: 100%;
-    max-width: 1200px;
+    margin: 6rem 10rem 0 10rem;
+    width: auto;
 }
 
 /*Define a estilização da fonte padrão*/
@@ -24,4 +23,3 @@ app-vinly-information, app-seller-purchase, app-other-info{
     width: 0.3rem;
     background-color: var(--pureBlack);
 }
-
