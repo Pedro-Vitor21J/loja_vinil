@@ -2,10 +2,10 @@
 <div class="seller_purchase">
     <!--Informações do Vendedor-->
         <div class="seller_information">
-            <p id="seller">Vendedor: PressVinly</p>
-            <p id="seller_reputation">Reputação do Vendedor: Exelente</p>
-            <p id="conditions">Condições: Novo/Lacrado</p>
-             <p id="stock"> Estoque: 100</p>
+            <p id="seller">Vendedor: {{vinyl_seller?.seller}}</p>
+            <p id="seller_reputation">Reputação do Vendedor: {{vinyl_seller?.reputation}}</p>
+            <p id="conditions">Condições: {{vinyl_seller?.conditions}}</p>
+             <p id="stock"> Estoque: {{vinyl_seller?.stock}}</p>
         </div>
                 
     <!--Local de Compra 
@@ -27,6 +27,6 @@
         <!--Botão Adicionar aos favoritos-->
         <input type="button" value="Adicionar ao favoritos" id="favorite">
         <!--Preço Total-->
-        <p id="total_price">Preço Total: R$ 130,54</p>
+        <p id="total_price">Preço Total: {{vinyl_seller?.totalPrice}}</p>
     </div>
 </div>
