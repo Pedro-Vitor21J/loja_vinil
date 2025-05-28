@@ -1,6 +1,7 @@
 import { vinyl_info } from '../app/components/model/vinyl-info';
 import { vinyl } from "../app/components/model/vinyl";
 import { vinyl_seller } from '../app/components/model/vinyl-seller';
+import { vinyl_other_info } from '../app/components/model/vinyl-other-info';
 
 export const vinyl_mock: vinyl[] = [
     {
@@ -473,3 +474,148 @@ export const vinyl_seller_mock: vinyl_seller[] = [
         totalPrice: 479.85
     }
 ]
+
+export const vinyl_other_info_mock: vinyl_other_info[] = [
+    {
+        id: '1',
+        description: `"Year of the Snitch" do Death Grips é uma obra caótica, imprevisível e cheia de experimentação sonora. Lançado em 2018, o álbum mistura rap, noise, punk e eletrônica de forma única e disruptiva.
+
+        Esta edição em vinil traz prensagem de alta qualidade e arte gráfica insana, refletindo a energia intensa do grupo. Faixas como "Flies", "Hahaha" e "Black Paint" são verdadeiras explosões sonoras.`,
+        weight: '480g',
+        size: '32 x 32 x 2cm',
+        label: 'Third Worlds'
+    },
+    {
+        id: '2',
+        description: `Raro e essencial para fãs de drone, doom e noise! "Amplifier Worship", lançado originalmente em 1998, é um marco absoluto na discografia da banda japonesa Boris. Esta edição dupla em vinil traz o som massivo e hipnótico do álbum em todo seu esplendor, agora remasterizado para uma experiência ainda mais imersiva.
+
+        Com uma prensagem de alta qualidade e capa gatefold, este lançamento reúne peso extremo, ambiência sufocante e texturas sonoras distorcidas em uma jornada sonora única. Destaque para faixas como "Huge", "Vomitself" e "Ganbou-Ki", que redefinem os limites entre música e ruído.`,
+        weight: '550g',
+        size: '32 x 32 x 2cm',
+        label: 'Third Man Records'
+    },
+    {
+        id: '3',
+        description: `"Lift Your Skinny Fists Like Antennas to Heaven" do Godspeed You! Black Emperor é um clássico absoluto do post-rock. Lançado em 2000, este álbum duplo é uma jornada épica por paisagens sonoras cinematográficas, melancólicas e transcendentes.
+
+        Esta edição em vinil com capa gatefold oferece áudio remasterizado e encarte com artes belíssimas. Faixas como "Storm" e "Sleep" são verdadeiras viagens emocionais que atravessam o silêncio e o caos.`,
+        weight: '620g',
+        size: '32 x 32 x 2cm',
+        label: 'Constellation Records'
+    },
+    {
+        id: '4',
+        description: `"Jane Doe" do Converge é um dos álbuns mais influentes do hardcore moderno. Lançado em 2001, combina agressividade, técnica e uma carga emocional avassaladora.</p>
+
+        <p>Esta edição em vinil, rara e muito procurada, traz arte icônica e prensagem de alta qualidade. Faixas como "Concubine" e "Jane Doe" são verdadeiras descargas de fúria e intensidade.<`,
+        weight: '540g',
+        size: '32 x 32 x 2cm',
+        label: 'Equal Vision Records'
+    },
+    {
+        id: '5',
+        description: `"To Be Kind" é uma obra monumental da banda Swans, lançada em 2014. Com mais de duas horas de duração, o álbum explora repetições hipnóticas, texturas densas e climas opressivos.
+
+        Esta edição tripla em vinil oferece áudio imersivo e uma belíssima capa gatefold. Destaques para faixas como "Screen Shot", "Oxygen" e "Bring the Sun / Toussaint L’Ouverture". Uma experiência sonora total.`,
+        weight: '750g',
+        size: '32 x 32 x 3cm',
+        label: 'Young God Records'
+    },
+    {
+        id: '6',
+        description: `"MM..FOOD" é um clássico absoluto do hip hop alternativo, onde MF DOOM combina rimas afiadas, samples criativos e uma atmosfera retrô única. Lançado originalmente em 2004, este disco é um banquete lírico para fãs do underground.
+
+        Esta edição em vinil apresenta áudio remasterizado e arte original icônica. Destaque para faixas como "Beef Rapp", "Rapp Snitch Knishes" e "Hoe Cakes", que mostram toda a genialidade do vilão das rimas.`,
+        weight: '530g',
+        size: '32 x 32 x 2cm',
+        label: 'Rhymesayers Entertainment'
+    },
+    {
+        id: '7',
+        description: `Explosivo, caótico e absolutamente moderno, "1000 Gecs" da dupla 100 Gecs é um marco da música hiperpop. Lançado em 2019, o disco mistura pop, punk, trap e glitch de forma insana e inovadora.
+
+        Em vinil colorido com arte vibrante, esta edição é tão energética quanto o som que entrega. Faixas como "Money Machine", "Stupid Horse" e "xXXi_wud_nvrstøp_ÜXXx" são pura adrenalina sonora.`,
+        weight: '470g',
+        size: '32 x 32 x 2cm',
+        label: 'Dog Show Records'
+    },
+    {
+        id: '8',
+        description: 'The Sacrificial Code da compositora Kali Malone é uma meditação sonora densa e contemplativa. Lançado em 2019, o álbum explora os limites do minimalismo e da música sacra através de longas peças para órgão.Esta edição tripla em vinil oferece uma prensagem impecável e encarte com textos conceituais. Faixas como Spectacle of Ritual e The Sacrificial Code criam um ambiente imersivo de pura introspecção sonora.',
+        weight: '780g',
+        size: '32 x 32 x 3cm',
+        label: 'Ideal Recordings'
+    },
+    {
+        id: '9',
+        description: `Violento, visceral e intransigente, "Venereology" de Merzbow é um manifesto sonoro do noise japonês. Lançado em 1994, é um dos discos mais extremos da história da música experimental.</p>
+
+        <p>Esta prensagem rara em vinil é um mergulho brutal em paredes de ruído analógico. Faixas como "I Lead You Towards Glorious Times" são experiências auditivas radicais, desafiadoras e poderosas.`,
+        weight: '520g',
+        size: '32 x 32 x 2cm',
+        label: 'Relapse Records'
+    },
+    {
+        id: '10',
+        description: `"Frozen Niagara Falls" é uma das obras mais ambiciosas de Prurient, explorando paisagens sonoras sombrias e colagens de ruído industrial. Lançado em 2015, o álbum duplo é denso, lírico e perturbador.
+
+        Com embalagem luxuosa e prensagem pesada, este lançamento em vinil é uma peça central para colecionadores de noise e power electronics. Faixas como "Greenpoint" e "Dragonflies to Sew You Up" são destaques intensos.`,
+        weight: '620g',
+        size: '32 x 32 x 2cm',
+        label: 'Profound Lore Records'
+    },
+    {
+        id: '11',
+        description: `"You Won't Get What You Want" da banda Daughters é um dos álbuns mais impactantes da década. Lançado em 2018, mistura noise rock, post-punk e tensão constante em um clima apocalíptico.
+
+        Esta edição em vinil de alta qualidade traz arte gráfica marcante e som explosivo. Faixas como "Satan in the Wait" e "Guest House" são hinos modernos de desespero sonoro.`,
+        weight: '540g',
+        size: '32 x 32 x 2cm',
+        label: 'Ipecac Recordings'
+    },
+    {
+        id: '12',
+        description: `"Sheer Hellish Miasma" de Kevin Drumm é um clássico do noise extremo. Lançado em 2002, o álbum é uma parede de som ininterrupta que testa os limites do volume e da percepção auditiva.<
+
+        Em vinil pesado e com arte minimalista, esta edição é uma das mais procuradas por fãs de ruído e experimentalismo radical. Uma única faixa, devastadora, ocupa cada lado do disco.`,
+        weight: '510g',
+        size: '32 x 32 x 2cm',
+        label: 'Mego'
+    },
+    {
+        id: '13',
+        description: `"Deathconsciousness", da dupla Have a Nice Life, é um álbum cult do post-punk/depressive shoegaze, lançado originalmente em 2008. Sua produção lo-fi e atmosfera melancólica conquistaram uma legião de fãs ao redor do mundo.
+
+        Esta edição em vinil duplo vem com livreto extenso e prensagem cristalina, ideal para mergulhar nas faixas icônicas como "Bloodhail" e "Earthmover". Um disco que se ouve com o coração pesado.`,
+        weight: '600g',
+        size: '32 x 32 x 2cm',
+        label: 'The Flenser'
+    },
+    {
+        id: '14',
+        description: `Caótico e lendário, Hanatarash é a essência do noise extremo japonês. Esta coletânea limitada reúne registros ao vivo e faixas raras gravadas entre os anos 80 e 90, mostrando a brutalidade sonora e performática da banda.</p>
+
+        Vinil prensado em tiragem extremamente limitada, com arte gráfica chocante e encarte com fotos raras. Uma peça obrigatória para fãs de destruição sonora sem limites.`,
+        weight: '480g',
+        size: '32 x 32 x 2cm',
+        label: 'Alchemy Records'
+    },
+    {
+        id: '15',
+        description: `"Monoliths & Dimensions" do Sunn O))) é uma experiência sonora colossal que une drone, doom e elementos orquestrais. Lançado em 2009, este álbum é um marco do experimental pesado.
+
+        Com capa gatefold luxuosa e prensagem densa, o disco leva o ouvinte por camadas e camadas de som arrastado e místico. Faixas como "Aghartha" e "Alice" são hipnóticas e transcendentes.`,
+        weight: '580g',
+        size: '32 x 32 x 2cm',
+        label: 'Southern Lord'
+    },
+    {
+        id: '16',
+        description: `"Black Vase" é uma das edições mais obscuras e procuradas de Prurient. Lançado como edição limitada, é um mergulho profundo nas paisagens do power electronics e do ambient industrial.</p>
+
+        <p>Em vinil preto pesado com capa simples e misteriosa, o disco oferece tensão e desconforto em cada faixa. Uma obra densa e perturbadora, com destaque para "Terracotta Spine" e "Total Disease".`,
+        weight: '500g',
+        size: '32 x 32 x 2cm',
+        label: 'Hospital Productions'
+    }
+];
